@@ -1,0 +1,1067 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   overflow-x: hidden; 
+}
+
+#content{
+    height: auto;
+    /* margin-bottom: 10rem; */
+    /* position: relative; */
+}
+
+#container{
+    position: relative;
+    width: 100%;
+    min-height: 750px;
+    margin-bottom: 2px;
+    /* left: 0px;
+    top: 20px; */
+    background-color: #8B8B8B;  
+    background: linear-gradient(to bottom right, #8B8B8B 65%, #EC6446 35%);
+    margin-top: 10px; 
+}
+ 
+.Header-text{
+position: absolute;
+width: 685px;
+height: 84px;
+left: 402px;
+top: 243px;
+
+font-family: 'Alegreya Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 70px;
+line-height: 84px;
+color: #FFFFFF;
+}
+.Header-Paragrapgh{ 
+position: absolute;
+width: 770px;
+height: 42px;
+left: 335px;
+top: 343px;
+
+font-family: 'Alegreya Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 130%;
+/* or 21px */
+
+text-align: center;
+
+/* Primary/White */
+
+color: #FFFFFF;
+}
+
+.Header-Button{
+position: absolute;
+width: 190px;
+height: 29px;
+left: 635px;
+top: 435px;
+
+font-family: 'Alegreya Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: center;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+.SvgIconBottom{
+box-sizing: border-box;
+position: absolute;
+width: 40px;
+height: 40px;
+left: 700px;
+top: 679px;
+transition: all .5s ease;
+/* Primary/White */
+
+border: 1px solid #FFFFFF;
+border-radius: 50%;
+}
+.SvgIconBottom:hover{
+    transform: translateY(13px);
+    cursor: pointer;
+}
+ 
+/* Section one Style Finished */
+
+
+
+ /* Section Two....................................... */
+.rowBottomImage{
+    display: flex;
+    justify-content: center;
+    background :linear-gradient(270deg, #E2483C 0%, #500021 100%);
+    width: 100%;
+    height: 346px;
+    padding-top: 18px;
+    margin-top: -40px;
+    position: relative;
+}
+.HeadingTopImage{
+    width: 285px;
+    height: 84px;
+    color: #FFFFFF;
+    /* text-align: center; */
+    margin-top: 20px;
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 55px;
+    position: absolute;
+    top: 2%;
+    left: 650px;
+
+    /* display: block; */
+}
+.col-lg-3-BottomImage{
+    box-sizing: border-box;
+    position: absolute;
+    width: 270px;
+    height: 134px;
+    left: 186px;
+    top: 134px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    padding-top: 30px;
+}
+
+
+
+
+.col-lg-3-BottomImage2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 270px;
+    height: 134px;
+    left: 486px;
+    top: 134px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 30px;
+}
+.col-lg-3-BottomImage3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 270px;
+    height: 134px;
+    left: 786px;
+    top: 134px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 30px;
+
+    /* position: relative; */
+}
+.col-lg-3-BottomImage4{
+    box-sizing: border-box;
+    position: absolute;
+    width: 270px;
+    height: 134px;
+    left: 1086px;
+    top: 134px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 30px;
+    /* opacity: 0; */
+
+}
+/* .col-lg-3-BottomImage4 .animated{
+    opacity: 1;
+} */
+
+.col-lg-3-BottomImage p , .col-lg-3-BottomImage2 p,
+.col-lg-3-BottomImage3 p,
+.col-lg-3-BottomImage4 p{
+    position: absolute;
+    width: 218px;
+    height: 38px;    
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+ 
+.col-lg-3-BottomImage4 button , .col-lg-3-BottomImage button , .col-lg-3-BottomImage2 button,
+.col-lg-3-BottomImage3 button{
+    width: 80px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 50px;
+    color: white;
+    cursor: pointer;
+}
+#one{
+    transition: all .6s;
+    display: none;
+}
+.col-lg-3-BottomImage4 button span , 
+.col-lg-3-BottomImage button span , .col-lg-3-BottomImage2 button span,
+.col-lg-3-BottomImage3 button span
+{
+   color: white;
+}
+.col-lg-3-BottomImage button:hover #one ,
+.col-lg-3-BottomImage2 button:hover #one ,
+.col-lg-3-BottomImage3 button:hover #one ,
+.col-lg-3-BottomImage4 button:hover #one {
+    display: inline;
+}
+
+
+.buttonZoron button{
+    position: absolute;
+    left: 680px;
+    bottom: 10px;
+    background-color: #C43125;
+    color: #FFFFFF;
+    width: 160px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnHover span{
+    margin-left: 10px;
+     display: none;
+     transition: all 0.5s ease-in-out;
+}
+.btnHover:hover span{
+    display: inline;  
+}
+
+/* End of Section two......................................................................... */
+/* Section Three is Started............................................................. */
+
+.containerThree{
+    width: 90%;
+    margin:  0 auto;
+    height: auto;
+    margin-top: 20px;
+}
+.headerrefrenzes h1{
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #003259;
+    margin-bottom: 20px;
+}
+.Contentrefrenzes p {
+font-family: 'Alegreya Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+width: 650px;
+color: #363636;
+}
+.rowCard{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.profile-card{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    width: 280px;
+    height: 236px;
+    margin-bottom: 20px;
+    margin-left: 18px;
+}
+.profile-content{
+    padding: 10px;
+}
+.profile-image{
+    text-align: center;
+}
+.profile-image img{
+    width: 100%;
+    height: 150px;
+}
+.description{
+    text-align: center;
+}
+
+.description p{
+font-family: 'Alegreya Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #000000;
+}
+
+.buttonPrimary button{
+    width: 222px;
+    height: 40px;
+    left: 135px;
+    top: 426px;
+    color: #FFFFFF;
+    cursor: pointer;
+    background: #C43125;
+    border-radius: 5px;
+
+}
+
+/* End of Section Cared And Section Three ........................................... */
+
+
+/* Start of Slider Section. Section Four................................ */
+#containerFour{
+    width: 90%;
+    margin:  0 auto;
+    height: auto;
+    margin-top: 20px;
+}
+.rowSlider{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+ 
+.rowSlider .Content{
+width: 670px;
+height: 200px;
+background: #FFFFFF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+padding: 32px;
+margin-left: -120px;
+margin-top: -20px;
+}
+ 
+.rowSlider .Content p{
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.arrows{
+    position: absolute;
+    top: 230px;
+    right: 100px;
+}
+.MaximumQuili{
+    display: flex;
+    justify-content: space-between;
+}
+
+.MaximumQuili h6{
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;  
+    margin-top: 10px; 
+}
+.MaximumQuili a{
+font-family: 'Alegreya Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #C43125;
+text-decoration: none;
+}
+
+
+.rightArrow i{
+   transform: scale(0.5);
+   transform: scale(5);
+   color: #EC6446;
+   position: absolute;
+   bottom: -60px;
+   right: -90px;
+}
+.LeftArrow i{
+    transform: scale(0.5);
+    transform: scale(5);
+    color: #EC6446;
+    position: absolute;
+    bottom: -60px;
+    right: 0px;
+ }
+
+/* End Caresoul of Section Four.......................................................*/
+
+.containerFive{
+width: 100%;
+padding: 20px;
+height: auto;
+background: linear-gradient(270deg, #E2483C 0%, #500021 100%);
+}
+.containerFive div h1{
+    
+font-family: 'Alegreya Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 70px;
+line-height: 84px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.rowlinks{
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.rowlinks .col-lg-2{
+    width: 160px;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 15px;
+    transition: all .3s ease;
+}
+.rowlinks .col-lg-2 a{
+    text-decoration: none;
+    color: white;
+    /* height: 50px; */
+}
+.rowContinue{
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.rowContinue .col-lg-2{
+    width: 160px;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 15px;
+    transition: all .3s ease;
+    /* padding: 15px; */
+}
+.rowContinue .col-lg-2 a{
+    text-decoration: none;
+    color: white;
+    /* padding: 15px; */
+    transition: all .5s ease;
+}
+.col-lg-2:hover{
+    border: 1px solid rgb(216, 205, 205);
+    transform: scale(1.00091);
+ 
+}
+
+
+/* Responsive Mode For Tablet.................................................. */
+
+@media(max-width:912px){
+    body{
+        /* overflow-x: hidden; */
+    }
+    #container{
+        position: relative;
+    }
+    .Header-text{
+        position: absolute;
+        width: 400px;
+        height: 84px;
+        left: 240px;
+        top: 150px;
+        font-size: 42px;
+    }
+    .Header-Paragrapgh{ 
+        position: absolute;
+        width: 400px;
+        height: 110px;
+        left: 240px;
+        top: 250px;
+    }
+    .Header-Button{
+        position: absolute;
+        width: 190px;
+        height: 29px;
+        left: 350px;
+        top: 380px;
+    }
+    .SvgIconBottom{
+        position: absolute;
+        left: 450px;
+        bottom: 40px;
+    }
+    /* End of Header Section........................ */
+
+    .rowBottomImage{
+        position: relative;
+        min-height: 550px;
+    }
+    .HeadingTopImage{
+        position: absolute;
+        top: 2%;
+        left: 290px;
+    }
+    .col-lg-3-BottomImage{
+        position: absolute;
+        left: 120px;
+        top: 134px;
+    }
+    .col-lg-3-BottomImage2{
+        position: absolute;
+        right: 120px;
+        top: 134px;
+    }
+    .col-lg-3-BottomImage3{
+        position: absolute;
+        left: 120px;
+        top: 294px;
+    }
+    .col-lg-3-BottomImage4{
+        position: absolute;
+        left: 485px;
+        top: 294px;
+    }
+    .buttonZoron button{
+        position: absolute;
+        left: 353px;
+        bottom: 20px;
+    }
+    .headerrefrenzes h1{
+        text-align: center;
+    }
+    .Contentrefrenzes p {
+    text-align: center;
+    width: 700px;
+    margin-left: 80px;
+    }
+    .rowSlider .Content{
+       overflow-y: auto;
+        }
+       .buttonPrimary{
+        text-align: center;
+       }
+       .rightArrow svg{
+        transform: scale(2);
+        margin-left: 0;
+     }
+     .LeftArrow svg{
+         transform: scale(2);
+         margin-left: 0;
+     }
+     
+        .rowSlider .Content{
+            width: 380px;
+            height: 150px;
+            padding: 10px;
+            margin-left: -120px;
+            margin-top: -20px;
+            }
+}
+
+/* Responsive Mode For Tablet is Finished */
+
+
+
+
+
+
+
+/* Responsive Mode For Tablet.................................................. */
+
+@media(max-width:798px){
+    body{
+        overflow-x: hidden;
+    }
+    #container{
+        position: relative;
+    }
+    .Header-text{
+        position: absolute;
+        width: 400px;
+        height: 84px;
+        left: 120px;
+        top: 150px;
+        font-size: 42px;
+    }
+    .Header-Paragrapgh{ 
+        position: absolute;
+        width: 400px;
+        height: 110px;
+        left: 120px;
+        top: 250px;
+    }
+    .Header-Button{
+        position: absolute;
+        width: 190px;
+        height: 29px;
+        left: 220px;
+        top: 380px;
+    }
+    /* End of Header Section........................ */
+
+    .rowBottomImage{
+        position: relative;
+        min-height: 550px;
+    }
+    .HeadingTopImage{
+        position: absolute;
+        top: 2%;
+        left: 290px;
+    }
+    .col-lg-3-BottomImage{
+        position: absolute;
+        left: 80px;
+        top: 134px;
+    }
+    .col-lg-3-BottomImage2{
+        position: absolute;
+        left: 430px;
+        top: 134px;
+    }
+    .col-lg-3-BottomImage3{
+        position: absolute;
+        left: 80px;
+        top: 294px;
+    }
+    .col-lg-3-BottomImage4{
+        position: absolute;
+        left: 430px;
+        top: 294px;
+    }
+    .buttonZoron button{
+        position: absolute;
+        left: 303px;
+        bottom: 20px;
+    }
+    .headerrefrenzes h1{
+        text-align: center;
+    }
+    .Contentrefrenzes p {
+    text-align: center;
+    }
+    .rowSlider .Content{
+       overflow-y: auto;
+        }
+       .buttonPrimary{
+        text-align: center;
+       }
+       .rightArrow svg{
+        transform: scale(2);
+        margin-left: 0;
+     }
+     .LeftArrow svg{
+         transform: scale(2);
+         margin-left: 0;
+     }
+     
+        .rowSlider .Content{
+            width: 380px;
+            height: 150px;
+            padding: 10px;
+            margin-left: -120px;
+            margin-top: -20px;
+            }
+            .rightArrow i{
+                transform: scale(0.5);
+                transform: scale(3);
+                color: #EC6446;
+                position: absolute;
+                bottom: 43px;
+                right: -88px;
+             }
+             .LeftArrow i{
+                 transform: scale(0.5);
+                 transform: scale(3);
+                 color: #EC6446;
+                 position: absolute;
+                 bottom: 43px;
+                 left: -88px;
+              }
+}
+
+/* Responsive Mode For Tablet is Finished */
+
+/* For Mobile...................................................... */
+
+/* Responsive Mode For Mobile.................................................. */
+
+
+
+@media(max-width:414px){
+  
+    #container{
+        position: relative;
+        overflow-x: hidden;
+        margin-left: 3px;
+        /* width: 100%; */
+    }
+    .Header-text{
+        position: absolute;
+        width: 300px;
+        height: 84px;
+        left: 75px;
+        top: 150px;
+        font-size: 30px;
+    }
+    .Header-Paragrapgh{ 
+        position: absolute;
+        width: 300px;
+        height: 160px;
+        left: 68px;
+        top: 250px;
+    }
+    .Header-Button{
+        position: absolute;
+        width: 190px;
+        height: 29px;
+        left: 120px;
+        top: 400px;
+    }
+    /* End of Header Section........................ */
+
+    .rowBottomImage{
+        position: relative;
+        min-height: 1000px;
+    }
+    .HeadingTopImage{
+        position: absolute;
+        top: 2%;
+        left: 85px;
+    }
+    .col-lg-3-BottomImage{
+        position: absolute;
+        left: 80px;
+        top: 134px;
+    }
+    .col-lg-3-BottomImage2{
+        position: absolute;
+        left: 80px;
+        top: 334px;
+    }
+    .col-lg-3-BottomImage3{
+        position: absolute;
+        left: 80px;
+        top: 534px;
+    }
+    .col-lg-3-BottomImage4{
+        position: absolute;
+        left: 80px;
+        top: 734px;
+    }
+    .buttonZoron button{
+        position: absolute;
+        left: 138px;
+        bottom: 20px;
+    }
+    .headerrefrenzes h1{
+        text-align: center;
+    }
+    .Contentrefrenzes p {
+    width: 250px;
+    text-align: center;
+    }
+    .rowSlider .Content{
+        display: none;
+        }
+        .imageSlider{
+            margin-left: 56px;
+            margin-top: 10px;
+        }
+        .containerFive{
+            position: relative;
+            min-height: 500px;
+        }
+        .headerlast h1{
+            position: absolute;
+            left: 130px;
+            top: -50px;
+            font-size: 26px !important;
+            font-weight: bold;
+        }
+        .child1{
+            position: absolute;
+            left: 130px;
+            top: 20px;
+            margin-top: 30px;
+            font-size: 20px !important;
+        }
+        .child2{
+            position: absolute;
+            left: 130px;
+            top: 90px;
+            font-size: 20px !important;
+        }
+        .child3{
+            position: absolute;
+           left: 130px;
+            top: 150px;
+            font-size: 20px !important;
+        }
+        .child4{
+            position: absolute;
+            left: 130px;
+            top: 200px;
+            font-size: 20px !important;
+        }
+        .child5{
+            position: absolute;
+            left: 130px;
+            top: 250px;
+            font-size: 20px !important;
+        }
+        .child6{
+            position: absolute;
+            left: 130px;
+            top: 300px;
+            font-size: 20px !important;
+        }
+        .child7{
+            position: absolute;
+            left: 130px;
+            top: 350px;
+            font-size: 20px !important;
+        }
+        .child8{
+            position: absolute;
+           left: 130px;
+            top: 400px;
+            font-size: 20px !important;
+        }
+        .child9{
+            position: absolute;
+            left: 130px;
+            top: 450px;
+            font-size: 20px !important;
+        }
+    
+        .rightArrow i{
+            transform: scale(0.5);
+            transform: scale(3);
+            color: #EC6446;
+            position: absolute;
+            bottom: 43px;
+            right: -88px;
+         }
+         .LeftArrow i{
+             transform: scale(0.5);
+             transform: scale(3);
+             color: #EC6446;
+             position: absolute;
+             bottom: 43px;
+             left: -88px;
+          }
+      
+     
+        
+}
+
+
+/* For */
+
+/* Responsive Mode For Mobile.................................................. */
+
+
+
+@media(max-width:375px){
+  
+    #container{
+        position: relative;
+        overflow-x: hidden;
+        margin-left: 3px;
+        /* width: 100%; */
+    }
+    .Header-text{
+        position: absolute;
+        width: 300px;
+        height: 84px;
+        left: 55px;
+        top: 150px;
+        font-size: 30px;
+    }
+    .Header-Paragrapgh{ 
+        position: absolute;
+        width: 300px;
+        height: 160px;
+        left: 48px;
+        top: 250px;
+    }
+    .Header-Button{
+        position: absolute;
+        width: 190px;
+        height: 29px;
+        left: 100px;
+        top: 400px;
+    }
+    /* End of Header Section........................ */
+
+    .rowBottomImage{
+        position: relative;
+        min-height: 1000px;
+    }
+    .HeadingTopImage{
+        position: absolute;
+        top: 2%;
+        left: 75px;
+    }
+    .col-lg-3-BottomImage{
+        position: absolute;
+        left: 60px;
+        top: 134px;
+    }
+    .col-lg-3-BottomImage2{
+        position: absolute;
+        left: 60px;
+        top: 334px;
+    }
+    .col-lg-3-BottomImage3{
+        position: absolute;
+        left: 60px;
+        top: 534px;
+    }
+    .col-lg-3-BottomImage4{
+        position: absolute;
+        left: 60px;
+        top: 734px;
+    }
+    .buttonZoron button{
+        position: absolute;
+        left: 118px;
+        bottom: 20px;
+    }
+    .headerrefrenzes h1{
+        text-align: center;
+    }
+    .Contentrefrenzes p {
+    width: 220px;
+    text-align: center;
+    }
+    .rowSlider .Content{
+        display: none;
+        }
+        .imageSlider{
+            margin-left: 56px;
+            margin-top: 10px;
+        }
+        .containerFive{
+            position: relative;
+            min-height: 500px;
+        }
+        .headerlast h1{
+            position: absolute;
+            left: 130px;
+            top: -50px;
+            font-size: 20px !important;
+        }
+        .child1{
+            position: absolute;
+            left: 130px;
+            top: 20px;
+            margin-top: 30px;
+            font-size: 20px !important;
+        }
+        .child2{
+            position: absolute;
+            left: 130px;
+            top: 90px;
+            font-size: 20px !important;
+        }
+        .child3{
+            position: absolute;
+           left: 130px;
+            top: 150px;
+            font-size: 20px !important;
+        }
+        .child4{
+            position: absolute;
+            left: 130px;
+            top: 200px;
+            font-size: 20px !important;
+        }
+        .child5{
+            position: absolute;
+            left: 130px;
+            top: 250px;
+            font-size: 20px !important;
+        }
+        .child6{
+            position: absolute;
+            left: 130px;
+            top: 300px;
+            font-size: 20px !important;
+        }
+        .child7{
+            position: absolute;
+            left: 130px;
+            top: 350px;
+            font-size: 20px !important;
+        }
+        .child8{
+            position: absolute;
+           left: 130px;
+            top: 400px;
+            font-size: 20px !important;
+        }
+        .child9{
+            position: absolute;
+            left: 130px;
+            top: 450px;
+            font-size: 20px !important;
+        }
+        .rightArrow i{
+            transform: scale(0.5);
+            transform: scale(3);
+            color: #EC6446;
+            position: absolute;
+            bottom: 43px;
+            right: -104px;
+         }
+         .LeftArrow i{
+             transform: scale(0.5);
+             transform: scale(3);
+             color: #EC6446;
+             position: absolute;
+             bottom: 43px;
+             left: -80px;
+          }
+      
+     
+        
+}
